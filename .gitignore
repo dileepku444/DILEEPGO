@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Per-device sequence-number state (regenerates automatically at runtime)
+custom_components/raylogic_mod2u/device_state/*.json
+
+# OS / editor junk
+.DS_Store
+.vscode/
