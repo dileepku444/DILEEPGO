@@ -1,0 +1,17 @@
+# ============================================================
+# Raylogic MOD2U - example configuration.yaml
+# ============================================================
+switch:
+  - platform: raylogic_mod2u
+    devices:
+      - name: "MOD2U Switch"
+        ip: 192.168.120.101       # <<< apna MOD2U ka IP yahan daalo
+        port: 5550                # Docklight capture wala port hi hai (5550)
+        # area aur device_id default se already set hain (0C / 101,
+        # Docklight capture se confirmed) - override karne ki zaroorat
+        # nahi jab tak dusra MOD2U device alag values na dikhaye.
+
+      # Naya MOD2U device add karna ho to bas ek aur entry:
+      # - name: "MOD2U Kitchen"
+      #   ip: 192.168.120.102
+      #   port: 5550
